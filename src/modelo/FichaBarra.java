@@ -9,5 +9,5 @@ package modelo;
  * @author marti
  */
 public class FichaBarra {
-    
+
 }

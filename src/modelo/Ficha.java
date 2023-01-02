@@ -9,29 +9,29 @@ package modelo;
  * @author marti
  */
 public class Ficha {
-    
+
     public boolean moverDereita() {
-        
+
         return false;
-        
+
     }
-    
+
     public boolean moverEsquerda() {
-        
+
         return false;
-        
+
     }
-    
+
     public boolean moverAbaixo() {
-        
+
         return false;
-        
+
     }
-    
+
     public boolean rotar() {
-        
+
         return false;
-        
+
     }
-    
+
 }

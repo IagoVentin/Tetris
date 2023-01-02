@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
 package iu;
+import java.util.Timer;
 
 /**
  *
@@ -14,6 +15,7 @@ public class VentanaPrincipal extends javax.swing.JPanel {
      * Creates new form MainPanel
      */
     public VentanaPrincipal() {
+        Timer timer = new Timer();
         initComponents();
     }
 
@@ -26,19 +28,47 @@ public class VentanaPrincipal extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        tglbtnPausa = new javax.swing.JToggleButton();
+        lblLblnumlinas = new javax.swing.JLabel();
+
+        tglbtnPausa.setText("Pausa");
+        tglbtnPausa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tglbtnPausaActionPerformed(evt);
+            }
+        });
+
+        lblLblnumlinas.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addComponent(lblLblnumlinas)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 248, Short.MAX_VALUE)
+                .addComponent(tglbtnPausa)
+                .addGap(24, 24, 24))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglbtnPausa)
+                    .addComponent(lblLblnumlinas))
+                .addContainerGap(256, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void tglbtnPausaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tglbtnPausaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tglbtnPausaActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel lblLblnumlinas;
+    private javax.swing.JToggleButton tglbtnPausa;
     // End of variables declaration//GEN-END:variables
 }

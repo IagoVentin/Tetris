@@ -6,24 +6,25 @@ package modelo;
 
 import java.awt.Color;
 import javax.swing.JLabel;
+
 /**
  *
  * @author marti
  */
 public class Cadrado {
-    
+
     int x;
-    
+
     int y;
-    
+
     Color corRecheo;
-    
+
     JLabel lblCadrado;
-    
+
     public String getCoordenadas() {
-        
+
         return null;
-        
+
     }
-    
+
 }
