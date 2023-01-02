@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package panel;
+package iu;
 
 /**
  *
  * @author marti
  */
-public class MainPanel extends javax.swing.JPanel {
+public class VentanaPrincipal extends javax.swing.JPanel {
 
     /**
      * Creates new form MainPanel
      */
-    public MainPanel() {
+    public VentanaPrincipal() {
         initComponents();
     }
 
